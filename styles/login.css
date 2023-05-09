@@ -1,0 +1,44 @@
+.login {
+			background-color: #9ff860;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+			width: 270px;
+			margin: 170px;
+			padding: 40px;
+			text-align: left;
+			transition: all 0.2s ease-in-out;
+			border-radius: 15px;
+			float: left;
+			
+			
+		}
+.login:hover {
+			transform: scale(1.07);
+			box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+		}
+.login input[type="text"],
+.login input[type="password"] {
+			width: 80%;
+			padding: 10px;
+			margin: 10px 0;
+			border: none;
+			border-radius: 5px;
+			background-color: #fff;
+		}
+.login input[type="submit"] {
+			background-color: #3eb340;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px;
+			cursor: pointer;
+		}
+.login input[type="submit"]:hover {
+			background-color: purple;
+			
+		}
+
+
+
+
+
+
