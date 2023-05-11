@@ -1,0 +1,65 @@
+
+      .videos {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+        grid-gap: 20px;
+
+      }
+
+      .video-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .video-wrapper .video {
+        width: 85%;
+        min-height: 250px;
+      }
+
+      .video-wrapper {
+        font-size: 20px;
+      }
+
+      .video-wrapper .video-description {
+        padding: 0 10px;
+      }
+
+body { background-image:url(https://images4.alphacoders.com/131/1311516.jpeg);
+		background-repeat: no-repeat;
+		background-size:cover;
+		font-family: Helvetica, sans-serif;
+		font-size: 10px;
+		color: white;
+		background-color: #111;
+		display: block;
+}
+
+.block {
+		background: linear-gradient(to bottom, #d66926, #872514);
+		padding:17px;
+		margin:41px;
+		box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+		font-size: 16px;
+		text-align: left;
+		color: white;
+		float:left;
+		border-radius: 15px;
+		transition: all 0.2s ease-in-out;
+}
+
+
+
+.block:hover {
+		transform: translate(10px, 10px);
+		box-shadow: 2px 2px 5px #333;		
+}
+
+.images{
+	margin: 3px;
+	padding: 41px;
+	float:center;
+
+}
+

@@ -1,0 +1,58 @@
+.block {
+			background: linear-gradient(to bottom, black, purple);
+			padding: 3px;
+			font-size: 18px;
+			text-align: center;	
+			margin: 41px;
+			color: white;
+			float: left;
+			border-radius: 15px;
+			transition: all 0.2s ease-in-out;
+			width: 100px;
+			
+		}
+		
+			
+		.rectangle-block {
+			background: linear-gradient(to bottom, black, purple);
+			border-radius: 5px;
+			padding: 16px;
+			margin: 41px;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+			font-family: Arial, sans-serif;
+			font-size: 20px;
+			line-height: 1.5;
+			text-align: justify;
+			transition: all 0.4s ease-in-out;
+			border-radius: 15px;
+			width:725px;
+		}
+		
+				
+		.rectangle-block:hover {
+			transform: translate(10px, 10px);
+		}
+		
+		.block:hover {
+			transform: translate(5px, 5px);
+			
+		}
+		body {
+			font-family: Helvetica, sans-serif;
+			font-size: 10px;
+			color: white;
+			background-color: #111;
+			display: block;
+}
+		
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) {
+}
+body { background-image:url(https://images4.alphacoders.com/131/1311514.jpeg);
+background-repeat: no-repeat;
+background-size:cover;
